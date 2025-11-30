@@ -1,0 +1,24 @@
+# General
+.env
+.DS_Store
+*.log
+
+# IDEs
+.idea/
+.vscode/
+
+# Node.js / React (Client)
+/Client/node_modules/
+/Client/dist/
+/Client/.vite/
+/Client/build/
+
+# Python / Flask (API)
+/API/__pycache__/
+/API/.pytest_cache/
+/API/.venv/
+/API/venv/
+/API/instance/
+
+# Docker
+docker-compose.override.yml
